@@ -1,2 +1,2 @@
-# projects
-some projects
+# Mini project
+by freecodecamp.org
