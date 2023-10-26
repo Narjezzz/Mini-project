@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(163, 65, 65);
+    font-family: 'Oswald', sans-serif
+}
+
+nav {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem auto 0;
+    border: 2px solid black;
+    border-radius: 2.2rem;
+    width: 550px;
+}
+
+h2 {
+    font-size: 3rem;
+    background-color: papayawhip;
+    border-radius: 2rem 2rem 0 0;
+    padding: 4rem;
+}
+
+li {
+    line-height: 3;
+    list-style: none;
+    border-top: 2px solid #000;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    background-color: hwb(37 84% 0% / 0.814);   
+    display: block;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
+
+li a:hover,li a:focus {
+    box-sizing: content-box;
+    background-color: #333;
+    color: papayawhip;
+    font-size: 2.5rem;
+}
+
+li a:active{
+    background-color: white;
+}
+
+p {
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+p a {
+    color: papayawhip;
+}
+
+p a:hover,p a:focus {
+    color: #333;
+}
